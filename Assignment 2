@@ -75,3 +75,20 @@ Q1. Explain the Cyber Kill Chain Methodology.
 Q - What do you understand about Mitre Attack Framework & TTPs? Explain in detail.
 
    Mitre Attack - For Enterprise a framework that categories the cyber adversary behaviour into tactics and techniques.  Tactics represents the why- the objective of an attack while techniques describe how adversaries achieve those objectives.
+
+   Tactics in attack for Enterprise - These are the main goals adversaries attempt to achieve in an attack
+
+      1.  Reconnaissance: Gathering information about the target before launching an attack.
+      2.  Resource Development: Establishing resource for later use.
+      3. Initial Access: Gaining entry into the target network.
+      4. Execution: Running malicious code on victims system.
+      5.  Persistence : Maintaning access across reboots & changes
+      6. Privilege Escalation: Gaining higher level permission.
+      7. Defence Evasion: Avoiding detection by security tools 
+      8. Credential Access: Stealing users access for further access. 
+      9. Discovery: Learning about the system network & defence.
+      10. Lateral movement: Moving through the network to access more systems.  
+      11. Collection: Gathering data for exfiltration.
+      12. Command and control( C2): Communicating with compromised systems.
+      13. Exfiltration: Stealing & transferring sensitive data 
+      14. Impact: Disrupting, damaging or destroying system & data.
