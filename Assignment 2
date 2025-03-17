@@ -1,0 +1,77 @@
+
+
+
+Q - Understand & Define the following Social Engineering Terms:
+ 1. Phishing
+ 2. Spear-phishing
+ 3. Vishing
+ 4. Smishing
+ 5. Quishing
+ 6. Shoulder Surfing
+ 7. Tailgating
+ 8. Piggybacking
+ 9. Dumpster Diving
+ 10. Impersonation
+ 11. Whaling
+ 12. Quid Pro Quo
+ 13. Baiting
+ 14. Hoax
+ 15. Pretexting
+ 16. Honeytrap
+
+  1. Phishing :- In this attack attacker create a fake email, website or send messages which look genuine through which they steal sensitive information, passwords, credit card details or login details 
+
+  2. Spear- Phishing - It is a type of phishing in which a specific person or organisation is a target. Eg Sending fake emails to CEO or employee of the company.
+
+  3.  Vishing :- Voice phishing. In this information is collected by making fake phone calls. Eg Calling as fake bank representative.
+
+  4. Simishing:- Phishing through SMS. In this link are send through message which either contain malware or are phishing page. 
+
+  5.  Qushing:- QR code-based phishing. Attacker make fake QR code so that once the target scan the code they are redirected to phishing websites or malware site.
+
+  6. Shoulder Surfing: It is a physical attack in which attacker sneakily look into the target system while they accessing their system to gain sensitive information.
+
+  7. Tailgating: In this attacker enter sneakily into the companies premises behind the authorise person or employees.
+
+  8. Piggybacking: It is similar to tailgating but in this victim allow unauthorised person to enter the workplace
+
+  9. Dumpster Diving: In this attacker search for the sensitive information from the dump disposed by the victim	
+
+ 10. Impersonation: In this an attacker pretend to be an employee or authorised person for the job to enter the victim’s workplace.
+
+ 11. Whaling: It is a phishing attack in which high profile people are attacked like the top management or the CEO. 
+
+ 12. Quid Pro Quo: In this attack the attacker free service  to the victim  in order to gain sensitive information.
+
+ 13. Baiting: Victim is tempted by giving him malicious software or device.
+
+ 14. Hoax: In this attack fake or false rumours are spread so that victim panics and get easily targeted.
+
+ 15. Pretexting: Attacker creates a fake scenario so that the victim share the sensitive information. 
+
+ 16. Honeytrap: In this a trap is created for the target in which sexual content or romantic content is created in order to blackmail the target or get their personal inform
+
+
+Q1. Explain the Cyber Kill Chain Methodology.
+
+ It is a framework that helps to understand and stop the cyberattack. It is divided into 7 stages through which strategies are created to prevent attacker to hack/ cyber attack.
+
+ Below are the stages 
+ 
+ 1 Reconnaissance: Gathering information about the target , look for the vulnerabilities. 
+
+ 2 Weaponisation : From the information gathered through recon the next step is to send malicious payload which can be easily delivered to the target.
+
+ 3 Delivery: In this stage the payload created send to the target as emails website link, vulnerable we application or USB drive.  Its also the key to test the defence  mechanism of the target
+
+ 4 Exploitation : Once the weapon is successfully transmitted to the target then it start exploiting the vulnerability by executing the code on the system.
+
+ 5 Installation : Now as the code was executed on the previous stage, more malicious software are installed for maintaining  access and hide presence of malicious activities.
+
+ 6 Command and control : In this stage two way communication b/w the target & controlled server is established to communicate & pass data back and forth.
+
+ 7 Action on objective : Now all the requirements are completed to gain the access of the target & send the data back and forth with hiding the presence is done. The objective of gaining access of the target is completed like data theft, compromising other systems.
+
+Q - What do you understand about Mitre Attack Framework & TTPs? Explain in detail.
+
+   Mitre Attack - For Enterprise a framework that categories the cyber adversary behaviour into tactics and techniques.  Tactics represents the why- the objective of an attack while techniques describe how adversaries achieve those objectives.
