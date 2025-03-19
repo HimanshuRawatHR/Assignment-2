@@ -82,7 +82,7 @@ Q - What do you understand about Mitre Attack Framework & TTPs? Explain in detai
       2.  Resource Development: Establishing resource for later use.
       3. Initial Access: Gaining entry into the target network.
       4. Execution: Running malicious code on victims system.
-      5.  Persistence : Maintaning access across reboots & changes
+      5.  Persistence : Maintaining access across reboots & changes
       6. Privilege Escalation: Gaining higher level permission.
       7. Defence Evasion: Avoiding detection by security tools 
       8. Credential Access: Stealing users access for further access. 
