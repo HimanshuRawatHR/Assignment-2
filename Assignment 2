@@ -89,3 +89,133 @@ Q - What do you understand about Mitre Attack Framework & TTPs? Explain in detai
       12. Command and control( C2): Communicating with compromised systems.
       13. Exfiltration: Stealing & transferring sensitive data 
       14. Impact: Disrupting, damaging or destroying system & data.
+
+Techniques :- in every tactic  one or more techniques are used, depending on the attackers action.
+
+Example Techniques:
+* Phishing (for Initial Access)
+* Exploitation of Public-Facing Application (for Initial Access)
+* PowerShell (for Execution)
+* Credential Dumping (for Credential Access)
+
+ Procedure :- These are the steps followed by the attacker to implement techniques.
+
+Q - Describe the Footprinting techniques & types of footprinting along with tools used in it.
+
+A - In footprinting the attacker collect more and more information available about the target from the external source, in order to plan his attack.  The purpose of footprinting is to collect publicly available resources to find vulnerability in the target system.
+
+There are two types of Footprinitng techniques:- 
+
+1. Passive  Footprinting 
+2. Active Footprinting 
+
+1 Passive Footprinting: - In this the attacker collect the information without interacting with the target system /organisation. This is basically done by publicly available sources, social media platforms, website, DNS records, etc.
+
+2 Active Footprinting: - In this the attacker collect the information but directly interacting with the target system/organisation. Techniques like Port scanning, Pinging, Network scanning etc.
+
+Types of Footprinting:
+
+DNS Footprinting: The use of DNS (Domain Name system) is to collect domain records of the targeted system. DNS records like A, MX,NS AND SOA, can provide information about the structure and server of the target system.
+
+Tools Used:
+* dig
+* nslookup
+* DNSdumpster
+
+Network Footprinting: In this Topology, IP address range, and connected devices are discovered of the target system by the attacker.
+
+* Tools Used:
+    * Nmap
+    * Angry IP Scanner
+    * Netcat
+
+Web Footprinting : This technique is used to collect information about website and web application. In this website’s structure, subdomains, web server details, technologies used, etc. are discovered.
+
+Tools Used:
+* Nikto (web server scanner)
+* Burp Suite (for web vulnerability scanning)
+* Wappalyzer (for technology stack identification)
+
+Social Engineering Footprinting: In this attacker user social engineering techniques to collect sensitive information from employees or individual.
+
+Tools Used:
+* Maltego (OSINT tool for social media profiling)
+* theHarvester (for email gathering and social media profiling)
+
+WHOIS Footprinting: Using WHOIS domain registration details are collected, which provide the information domain owner, registrar, and expiration date.
+
+Tools Used:
+* WHOIS command
+* Whois.domaintools.com
+
+Footprinting Tools:
+
+Nmap: Network mapping tool is used for system discovery, port scanning, OS detection, and vulnerability scanning
+Netcat: Network utility tool is used for port scanning and banner grabbing.
+Whois: Domain registration details are collected.
+Google Dorks: Google search operators are used to collect sensitive information like email addresses, file types, documents, etc., 
+Maltego: Powerful OSINT (Open Source Intelligence) tool helps in collecting the social media profiling, network analysis, and domain information collect 
+Traceroute: Network path tracing tool is used to collect information of network devices and routers 
+
+Google Dorking, also known as Google hacking, involves using advanced search operators in Google to find specific types of information that aren't easily accessible or intended to be found by regular search queries. Below are 15 Google Dorking operators along with their descriptions: 
+1. site:
+* Use: Restricts search results to a specific website or domain.
+* Example: site:example.com – Finds pages only within the "example.com" domain. 
+
+2. inurl:
+* Use: Searches for a specific term in the URL of a webpage.
+* Example: inurl:login – Finds pages with the word "login" in the URL. 
+
+3. intitle:
+* Use: Searches for a specific term in the title of a webpage.
+* Example: intitle:"admin panel" – Finds pages with "admin panel" in the title. 
+
+4. intext:
+* Use: Searches for a specific term in the body of a webpage.
+* Example: intext:"confidential" – Finds pages with the word "confidential" in the content. 
+
+5. filetype:
+* Use: Limits the search results to a specific file type (e.g., PDF, DOCX, etc.).
+* Example: filetype:pdf – Finds PDF documents. 
+
+6. link:
+* Use: Finds pages that link to a specific URL.
+* Example: link:example.com – Finds pages linking to "example.com". 
+
+7. cache:
+* Use: Shows the cached version of a webpage.
+* Example: cache:example.com – Shows the cached version of "example.com". 
+
+8. allinurl:
+* Use: Searches for all terms in the URL.
+* Example: allinurl:admin login – Finds URLs containing both "admin" and "login". 
+
+9. allintitle:
+* Use: Searches for all terms in the title.
+* Example: allintitle:"secure admin login" – Finds pages with all three words in the title. 
+
+10. allintext:
+* Use: Searches for all terms in the page text.
+* Example: allintext:"user password reset" – Finds pages containing "user" and "password" and "reset". 
+
+11. allinanchor:
+* Use: Searches for terms in the anchor text (the clickable text in links).
+* Example: allinanchor:"click here" – Finds pages with anchor text "click here". 
+
+12. define:
+* Use: Provides the definition of a word.
+* Example: define:algorithm – Shows the definition of the word "algorithm." 
+
+13. before: and after:
+* Use: Filters search results by date, restricting results to before or after a specific date.
+* Example: after:2023-01-01 – Finds results published after January 1, 2023. 
+
+14. numrange:
+* Use: Searches for numbers within a specific range.
+* Example: $100..$500 – Finds pages mentioning prices between $100 and $500. 
+
+15. AROUND(X)
+* Use: Finds pages where two words are within X words of each other.
+* Example: "login" AROUND(5) "password" – Finds pages where "login" and "password" appear within 5 words of each other.
+
+
